@@ -1,0 +1,98 @@
+{
+    name: 'examen_ce',
+    date_created: '23/08/2017',
+    content: [{
+            t: 'tab',
+            content: [{ s: '3', a: 'center', t: 'text', content: 'Informacion preliminar del emprendedor', n: 'true' },
+                {
+                    t: 'row',
+                    content: { s: '4', t: 'text', content: 'Instrucciones: ' },
+                    { s: '4', t: 'text', content: 'Conteste brevemente marcando con una X, en caso de cualquier duda consulte al asesor.' }
+                },
+                { a: 'left', t: 'text', content: '¿Como se entero de empreser?' },
+                {
+                    t: 'check',
+                    content: {
+                        content: 'Lona',
+                        name: 'Lona',
+                        checked: false
+                    },
+                    {
+                        content: 'Radio',
+                        name: 'Radio'
+                        checked: false
+                    },
+                    {
+                        content: 'Amigos',
+                        name: 'amigos'
+                        checked: false
+                    },
+                    {
+                        content: 'TV',
+                        value: 'TV'
+                        checked: false
+                    },
+                    default: {
+                        content: 'Otro',
+                        val: default,
+                    }
+                }
+            ]
+        },
+        {
+            t: 'tab',
+            content: [
+                { t: 'textbox', val: 'nombre', p: 'true', a: 'left', label: 'nombre' },
+                {
+                    t: 'row',
+                    content: [
+                        { t: 'textbox', val: 'direccion', p: 'true', a: 'left', label: 'Direccion' },
+                        { t: 'textbox', val: 'colonia', p: 'true', a: 'left', label: 'Colonia' }
+                    ]
+                },
+                {
+                    t: 'row',
+                    content: [
+                        { t: 'textbox', val: 'telefono', p: 'true', a: 'left', label: 'Telefono' },
+                        { t: 'textbox', val: 'celular', p: 'true', a: 'left', label: 'Celular' }
+                    ]
+                },
+                {
+                    t: 'row',
+                    content: [
+                        { t: 'textbox', val: 'hijos', p: 'true', a: 'left', label: 'Numero de hijos/edad' },
+                        { t: 'textbox', val: 'stat_civil', p: 'true', a: 'left', label: 'Estado civil' }
+                    ]
+                },
+                {
+                    t: 'row',
+                    content: [
+                        { t: 'textbox', val: 'nacimiento', p: 'true', a: 'left', label: 'Lugar de nacimiento' },
+                        { t: 'textbox', val: 'nacimiento', p: 'true', a: 'left', label: 'Fecha de nacimiento' }
+                    ]
+                },
+                {
+                    t: 'row',
+                    content: [
+                        { t: 'textbox', val: 'email', p: 'true', a: 'left', label: 'Correo electronico' },
+                        { t: 'textbox', val: 'escolaridad', p: 'true', a: 'left', label: 'Escolaridad' }
+                    ]
+                }
+            ]
+        },
+        {
+            t: 'tab',
+            content: [
+                { t: 'textarea', val: 'descrip', a: 'left', label: 'Breve descripcion del proyecto' },
+                { t: 'textarea', val: 'diferencia', a: 'left', label: '¿Cual seria la diferencia entre tu empresa y la competencia' },
+                { t: 'textbox', val: 'f_negocio', p: 'true', a: 'left', label: '¿En que fecha pretende abrir su negocio?' }
+            ]
+        },
+        {
+            t: 'tab',
+            content: [
+
+            ]
+        }
+    ]
+}
